@@ -6,8 +6,9 @@ const normalPerson = {
         const fullName = this.FirstName +' '+this.LastName;
         return fullName;
     },
-    chargeSalery: function(amount){
-        this.Salery = this.Salery - amount;  // ekahn e kono variable declare korle bire clg krt hobe, r variable declare na krl baire theke call kora jaby
+    chargeSalery: function(amount,tips,tax){
+        this.Salery = this.Salery - amount - tips - tax;  // ekahn e kono variable declare korle bire clg krt hobe, r variable declare na krl baire theke call kora jaby
+        return this.Salery;
     }
 }
 const  GoodMan={
@@ -22,8 +23,12 @@ const  RichdMan={
     Salery: 198000,
 }
 
-normalPerson.chargeSalery(1500);
-console.log(normalPerson.Salery);
+// normalPerson.chargeSalery(1500);
+
+normalPerson.chargeSalery.call(RichdMan,8000,9980,20);
+normalPerson.chargeSalery.call(RichdMan,5000,80000,0);
+
+console.log(RichdMan.Salery);
 
 // const GoodManCharge = normalPerson.chargeSalery.bind(GoodMan);
 // GoodManCharge(100000);
