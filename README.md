@@ -7,3 +7,5 @@
 # bind --> return a new funtion(wich need to declare as variable),
 # call--> need to separeted after this value by Comma( examplae.funtion.call(this value,perameter,parameter.parameter));
 # apply-> need to define the a array(example.funtion.apply(this value,[preameter,perameter,perameter]));
+
+# when the value of this will window----> this.js(method er bap pase j thakbe ota this er value)
