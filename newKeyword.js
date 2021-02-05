@@ -6,13 +6,15 @@ class Person{
     }
 }
 
-// function PersonOld(Fname,Lname,Salery){
+// function PersonOld(Fname,Lname,Salary){
 //     this.Fname =Fname;
 //     this.Lname = Lname;
 //     this.Salery = Salery;            //old code
 // }
 // const olDPerson =new PersonOld('shakil', "khan", 3250)
 // console.log(olDPerson);
+
+
 
 const shakil = new Person('shakil', 'khan', 50000);
 const Mahbub = new Person('Md Mahbub', 'Hasan', 20000);
