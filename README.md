@@ -1,4 +1,4 @@
-# interview
+
 # m-25-important
 # call apply->>object Method; objet use bind to borrow method from anotherobject;
 # shakil khan/practices/callApply impf
@@ -10,3 +10,4 @@
 
 # when the value of this will window----> this.js(method er bap pase j thakbe ota this er value)
 # async-await and console log(with .then)
+# js event loop: (mdn)==> https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
