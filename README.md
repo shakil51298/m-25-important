@@ -9,3 +9,4 @@
 # apply-> need to define the a array(example.funtion.apply(this value,[preameter,perameter,perameter]));
 
 # when the value of this will window----> this.js(method er bap pase j thakbe ota this er value)
+# async-await and console log(with .then)
